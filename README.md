@@ -103,3 +103,30 @@ Fixed size
 Manual memory management
 
 No built-in methods for manipulation
+
+🔹 Common Operations with std::string
+Concatenation:
+
+std::string full = first + " " + last;
+
+Length:
+
+str.length() or str.size()
+
+Substring:
+
+str.substr(start, length)
+
+Comparison:
+
+==, !=, <, >, etc.
+
+Search:
+
+str.find("text")
+
+Modification:
+
+str.replace(), str.insert(), str.erase()
+
+# Algorithm
