@@ -208,3 +208,108 @@ Print arr[n] followed by a space
 Print arr[i] followed by a space
 
 10.End
+
+# Progrsm 4
+Objective : searching minimum and maximum value in an array
+
+🔹 Steps
+
+1.Start
+
+2.Declare an integer variable n to store the number of elements.
+
+3.Prompt the user: "Enter the number of elements in the array:"
+
+4.Read the value of n.
+
+5.Declare an integer array arr of size n.
+
+6.Prompt the user: "Enter the elements:"
+
+7.Loop from i = 0 to i < n:
+
+Read each element into arr[i]
+
+8.Initialize two variables:
+
+max = arr[0]
+
+min = arr[0]
+
+9.Loop from i = 1 to i < n:
+
+If arr[i] > max, then set max = arr[i]
+
+If arr[i] < min, then set min = arr[i]
+
+10.Display the values of max and min
+
+11.End
+
+# Program 5
+Objective : To input 5 elements into an array, display the array, and compute the sum and average of its elements.
+
+🔹 Steps
+
+1.Start
+
+2.Declare an integer array arr of size 5.
+
+3.Declare variables:
+
+i and n for loop iteration
+
+sum to store the total sum (initialize to 0)
+
+average to store the average
+
+4.Display message: "Enter the elements of the array:"
+
+5.Loop from i = 0 to i < 5:
+
+Read input from user and store in arr[i]
+
+6.Display message: "The array is:"
+
+7.Loop from n = 0 to n < 5:
+
+Print arr[n] followed by a space
+
+8.Loop from i = 0 to i < 5:
+
+Add arr[i] to sum
+
+9.Calculate average as average = sum / 5
+
+10.Display:
+
+"The sum of all elements is: " followed by sum
+
+"The average of all elements is: " followed by average
+
+11.End
+
+# Program 6
+Objective : To read 5 elements from the user into an array and display them.
+
+🔹 Steps
+
+1.Start
+
+2.Declare an integer array arr of size 5.
+
+3.Declare loop variables i and n.
+
+4.Display message: "Take array input from the user"
+
+5.Loop from i = 0 to i < 5:
+
+Read input from user and store in arr[i]
+
+6.Display message: "The array is:"
+
+7.Loop from n = 0 to n < 5:
+
+Print arr[n] followed by a space
+
+8.End
