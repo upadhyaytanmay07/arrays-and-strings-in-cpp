@@ -209,7 +209,7 @@ Print arr[i] followed by a space
 
 10.End
 
-# Progrsm 4
+# Program 4
 Objective : searching minimum and maximum value in an array
 
 🔹 Steps
