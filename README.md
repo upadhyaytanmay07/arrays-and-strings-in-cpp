@@ -5,7 +5,7 @@ To study and implement arrays and strimgs in C++
 Visual Studio
 
 # Theory:
-📘 Theory of Arrays in C++
+# 📘 Theory of Arrays in C++
 
 🔹 Definition
 
