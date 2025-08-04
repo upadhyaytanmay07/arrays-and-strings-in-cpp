@@ -130,3 +130,81 @@ Modification:
 str.replace(), str.insert(), str.erase()
 
 # Algorithm
+# Progam 1
+Objective : Printing Elements of an Array
+
+🔹 Steps
+
+1.Start the program.
+
+2.Declare an array arr[] with elements {10, 20, 30, 40, 50}.
+
+3.Use a for loop to iterate over the array.
+
+4.Print each element of the array.
+
+5.End the program.
+
+# Program 2
+Objective : Searching for a Number in an Array
+
+🔹 Steps
+
+1.Start
+
+2.Declare an integer array arr of size 5 and initialize it with values {10, 20, 30, 40, 50}.
+
+3.Declare variables:
+
+i for loop iteration
+
+num to store the number to be searched
+
+4.Prompt the user to enter the number to be searched.
+
+5.Read the input value into num.
+
+6.Loop through the array from index 0 to 4:
+
+For each index i, check if arr[i] == num
+
+If the condition is true:
+
+Display the message: "The num is found at location : i+1"
+
+7. End
+
+# Program 3 
+Objective : reversing an array
+
+🔹 Steps
+
+1.Start
+
+2.Declare an integer array arr of size 5.
+
+3.Declare variables:
+
+i for loop iteration
+
+n for display loop
+
+4.Display message: "Enter the elements of the array:"
+
+5.Loop from i = 0 to i < 5:
+
+Read input from user and store in arr[i]
+
+6.Display message: "The array is:"
+
+7.Loop from n = 0 to n < 5:
+
+Print arr[n] followed by a space
+
+8.Display message: "The reversed array is:"
+
+9.Loop from i = 4 down to i >= 0:
+
+Print arr[i] followed by a space
+
+10.End
