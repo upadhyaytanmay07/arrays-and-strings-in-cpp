@@ -66,3 +66,40 @@ Allocated on the heap using new.
 Multidimensional Arrays:
 
 Arrays of arrays (e.g., 2D arrays: int matrix[3][3];)
+
+# 📘 Theory of Strings in C++
+🔹 Definition
+
+A string is a sequence of characters used to represent text.
+
+C++ supports two main types of strings:
+
+C-style strings (char arrays)
+
+C++ std::string class (from the Standard Library)
+
+🔹 C-Style Strings (char arrays)
+
+Declared as an array of characters ending with a null character ('\0').
+
+Declaration:
+
+char str[10];
+
+char str[] = "Hello"; → Automatically adds '\0' at the end.
+
+Initialization:
+
+Can be initialized with string literals or character arrays.
+
+Access:
+
+Individual characters accessed via indexing: str[0], str[1], etc.
+
+Limitations:
+
+Fixed size
+
+Manual memory management
+
+No built-in methods for manipulation
