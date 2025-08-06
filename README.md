@@ -313,3 +313,57 @@ Read input from user and store in arr[i]
 Print arr[n] followed by a space
 
 8.End
+
+# Program 7
+Objective : check whether a given string is a palindrome
+
+🔹 Steps
+
+1.Start
+
+2.Input a string str1 from the user.
+
+3.Find the length of str1 and store it in variable a.
+
+4.Initialize a counter s to 0 — this will track matching character pairs.
+
+5.Loop from index i = 0 to i < a / 2:
+
+(a) Compare the character at position i with the character at position a - 1 - i.
+
+(b) If characters match, increment s by 1.
+
+(c) If characters don’t match, break the loop (string is not a palindrome).
+
+6.After the loop:
+
+(a) If s == a / 2, then all necessary characters matched → String is a palindrome.
+
+(b) Else → String is not a palindrome.
+
+7.Display result to the user.
+
+8.End
+
+# Program 8
+Objective : to concatenate two strings
+
+🔹 Steps
+
+1.Start
+
+2.Declare two string variables, str1 and str2.
+
+3.Prompt the user to enter the first string.
+
+4.Read input into str1.
+
+5.Prompt the user to enter the second string.
+
+6.Read input into str2.
+
+7.Concatenate the two strings with a space in between: str1 + " " + str2.
+
+8.Display the result to the user.
+
+9.End
